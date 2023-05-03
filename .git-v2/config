@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@bbsc.github:EEREweb/bbsc-v2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "taeyoun"]
+	url = git@bbsc.github:taeyounkimoey/bbsc-v2.git
+	fetch = +refs/heads/*:refs/remotes/taeyoun/*
